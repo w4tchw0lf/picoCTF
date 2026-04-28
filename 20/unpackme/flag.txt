@@ -1,0 +1,5 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/20/unpackme]
+└──╼ $ ./unpackme-upx 
+What's my favorite number? 754635
+
+picoCTF{up><_m3_f7w_77ad107e}

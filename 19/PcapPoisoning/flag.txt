@@ -1,0 +1,3 @@
+strings trace.pcap | grep "picoCTF"
+
+picoCTF{P64P_4N4L7S1S_SU55355FUL_f621fa37}

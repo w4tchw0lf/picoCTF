@@ -1,0 +1,5 @@
+openssl req -in readmycert.csr -noout -text
+
+Subject: CN = picoCTF{read_mycert_41d1c74c}, name = ctfPlayer
+
+picoCTF{read_mycert_41d1c74c}

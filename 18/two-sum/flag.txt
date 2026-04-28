@@ -1,0 +1,8 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/18/two-sum]
+└──╼ $ nc saturn.picoctf.net 61821
+n1 > n1 + n2 OR n2 > n1 + n2 
+What two positive numbers can make this possible: 
+1500000000 1500000000
+You entered 1500000000 and 1500000000
+You have an integer overflow
+YOUR FLAG IS: picoCTF{Tw0_Sum_Integer_Bu773R_0v3rfl0w_f6ed8057}

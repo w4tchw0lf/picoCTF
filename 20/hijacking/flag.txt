@@ -1,0 +1,3 @@
+SSH connect and hijack the python library
+
+picoCTF{pYth0nn_libraryH!j@CK!n9_0083cb0b}

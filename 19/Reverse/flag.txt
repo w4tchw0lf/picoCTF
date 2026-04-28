@@ -1,0 +1,7 @@
+ltrace -s 100 ./ret
+
+Enter the password to unlock this file: picoCTF{3lf_r3v3r5ing_succe55ful_1de0508
+You entered: picoCTF{3lf_r3v3r5ing_succe55ful_1de0508
+Password correct, please see flag: picoCTF{3lf_r3v3r5ing_succe55ful_1de05085}
+
+picoCTF{3lf_r3v3r5ing_succe55ful_1de05085}

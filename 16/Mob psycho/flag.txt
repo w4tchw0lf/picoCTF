@@ -1,0 +1,4 @@
+unzip mobpsycho.apk
+cat ./res/color/flag.txt
+
+picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_746dfa39}

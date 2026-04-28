@@ -1,0 +1,5 @@
+Cyberchef ROT13 bruteforce
+
+Amount = 18
+
+picoCTF{r0tat1on_d3crypt3d_7d140864}

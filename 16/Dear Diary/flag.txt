@@ -1,0 +1,8 @@
+file disk.flag.img                                         
+disk.flag.img: DOS/MBR boot sector; partition 1 : ID=0x83, active, start-CHS (0x0,32,33), end-CHS (0x26,94,56), startsector 2048, 614400 sectors; partition 2 : ID=0x82, start-CHS (0x26,94,57), end-CHS (0x47,1,58), startsector 616448, 524288 sectors; partition 3 : ID=0x83, start-CHS (0x47,1,59), end-CHS (0x82,138,8), startsector 1140736, 956416 sectors
+
+icat -o 1140736 disk.flag.img 8 > diario_sistema.bin
+
+strings -n 2 diario_sistema.bin | grep -A 1 "innocuous-file.txt"
+
+picoCTF{1_533_n4m35_80d24b30}

