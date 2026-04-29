@@ -1,0 +1,10 @@
+Developer tools --> click in "Preserve log" and analyze the redirections
+
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/20/findme]
+└──╼ $ echo -n "bF90aGVfd2F5X2EwZmUwNzRmfQ==" | base64 -d
+l_the_way_a0fe074f}%                                                                                                                              
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/20/findme]
+└──╼ $ echo -n "cGljb0NURntwcm94aWVzX2Fs" | base64 -d
+picoCTF{proxies_al
+
+flag: picoCTF{proxies_all_the_way_a0fe074f}

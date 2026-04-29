@@ -1,0 +1,8 @@
+binwalk -e flag.png
+
+open _flag.png.extracted/secret/flag.png
+
+Copy manually the flag and zoom it
+
+picoCTF{Hiddinng_An_imag3_within_@n_ima9e_d55982e8}
+

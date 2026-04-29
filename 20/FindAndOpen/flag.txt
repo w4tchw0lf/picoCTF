@@ -1,0 +1,10 @@
+echo "VGhpcyBpcyB0aGUgc2VjcmV0OiBwaWNvQ1RGe1IzNERJTkdfTE9LZF8=" | base64 -d
+
+This is the secret: picoCTF{R34DING_LOKd_
+
+unzip flag.zip
+Password: picoCTF{R34DING_LOKd_
+
+cat flag
+picoCTF{R34DING_LOKd_fil56_succ3ss_b98dda6a}
+
