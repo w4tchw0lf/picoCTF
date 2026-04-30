@@ -1,0 +1,11 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/21/transposition-trial]
+└──╼ $ python3 -c '
+with open("message.txt", "r") as f:
+    text = f.read()
+    decoded = ""
+    for i in range(0, len(text)-2, 3):
+        block = text[i:i+3]
+        decoded += block[2] + block[0] + block[1]
+    print(decoded)
+'
+The flag is picoCTF{7R4N5P051N6_15_3XP3N51V3_109AB02E}
