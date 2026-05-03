@@ -1,0 +1,19 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/23/flag leak]
+└──╼ $ python3 exploit.py 
+[*] Iniciando escaneo de memoria...
+
+Posición 31:    
+Posición 36:    pico
+Posición 37:    CTF{
+Posición 38:    L34k
+Posición 39:    1ng_
+Posición 40:    Fl4g
+Posición 41:    _0ff
+Posición 42:    _St4
+Posición 43:    ck_1
+Posición 44:    1a2b
+Posición 45:    52a}
+
+[+] Extracción finalizada.
+--- Flag Ensamblada ---
+picoCTF{L34k1ng_Fl4g_0ff_St4ck_11a2b52a}

@@ -1,0 +1,3 @@
+grep -oP '(?<=>).*(?=<)' drawing.flag.svg | tr -d ' \n' | sed 's/<\/tspan>//g'
+
+picoCTF{3nh4nc3d_aab729dd}

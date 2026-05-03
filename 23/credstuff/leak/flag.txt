@@ -1,0 +1,5 @@
+$ grep -n "cultiris" usernames.txt
+378:cultiris
+$ sed -n '378p' passwords.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+picoCTF{C7r1F_54V35_71M3}
