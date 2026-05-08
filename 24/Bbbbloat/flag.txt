@@ -1,0 +1,12 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/24/Bbbbloat]
+└──╼ $ ltrace ./bbbbloat
+printf("What's my favorite number? ")                                                                                                              = 27
+__isoc99_scanf(0x5cb720059020, 0x7ffd10235b30, 0xd2c49, 0xd2c49What's my favorite number? 549255
+)                                                                                   = 1
+strdup("A:4@r%uL4Ff0f9b03=_cf0cc7fc2e_N")                                                                                                          = 0x5cb75b7c1ac0
+strlen("A:4@r%uL4Ff0f9b03=_cf0cc7fc2e_N")                                                                                                          = 31
+fputs("picoCTF{cu7_7h3_bl047_44f74a60}", 0x7a2196e045c0)                                                                                           = 1
+putchar(10, 0x5cb75b7c1ac0, 31, 0picoCTF{cu7_7h3_bl047_44f74a60}
+)                                                                                                                 = 10
+free(0x5cb75b7c1ac0)                                                                                                                               = <void>
++++ exited (status 0) +++

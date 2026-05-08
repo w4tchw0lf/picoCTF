@@ -1,0 +1,3 @@
+[*] Iniciando crackeo...
+[+] ¡Éxito! Contraseña encontrada: 8b95
+[+] FLAG: picoCTF{fl45h_5pr1ng1ng_cf341ff1}
