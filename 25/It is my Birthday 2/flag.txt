@@ -1,0 +1,13 @@
+wget https://challenge-files.picoctf.net/c_wily_courier/10045c1adb6c825694820c9fce4b54c9e3373c54270a5aa00a34cc10a4e587bc/invite.pdf
+
+tail -c 1000 invite.pdf > suffix.bin
+
+wget https://raw.githubusercontent.com/cr-marcstevens/sha1collisiondetection/master/test/shattered-1.pdf
+wget https://raw.githubusercontent.com/cr-marcstevens/sha1collisiondetection/master/test/shattered-2.pdf
+
+cat shattered-1.pdf suffix.bin > payload1.pdf
+cat shattered-2.pdf suffix.bin > payload2.pdf
+
+Upload resulting PDFs at the website: http://wily-courier.picoctf.net:57146/
+
+Flag: picoCTF{h4ppy_b1rthd4y_2_m3_a3023453}

