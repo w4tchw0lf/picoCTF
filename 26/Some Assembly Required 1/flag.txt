@@ -1,0 +1,7 @@
+wget http://wily-courier.picoctf.net:61915/JIFxzHyW8W -O flag.wasm
+
+strings flag.wasm
+
+strings flag.wasm | grep pico
+
+picoCTF{68ff4bc93f6d67637b2f471be209d132}

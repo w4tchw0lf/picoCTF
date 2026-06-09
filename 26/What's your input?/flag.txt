@@ -1,0 +1,11 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/26/What's your input?]
+└──╼ $ nc wily-courier.picoctf.net 51273
+What's your favorite number?
+Number? 2018
+You said: 2018
+I agree!
+What's the best city to visit?
+City? city
+You said: Augusta
+I agree!
+picoCTF{v4lua4bl3_1npu7_2979cd2e}

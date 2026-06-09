@@ -1,0 +1,32 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/26/Disk, disk, sleuth! II]
+└──╼ $ file dds2-alpine.flag.img
+dds2-alpine.flag.img: DOS/MBR boot sector; partition 1 : ID=0x83, active, start-CHS (0x0,32,33), end-CHS (0x10,81,1), startsector 2048, 260096 sectors
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/26/Disk, disk, sleuth! II]
+└──╼ $ mmls dds2-alpine.flag.img                            
+DOS Partition Table
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Primary Table (#0)
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  000:000   0000002048   0000262143   0000260096   Linux (0x83)
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/26/Disk, disk, sleuth! II]
+└──╼ $ fls -r -p -o 2048 dds2-alpine.flag.img | grep down-at-the-bottom.txt
+r/r 18291:      root/down-at-the-bottom.txt
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/26/Disk, disk, sleuth! II]
+└──╼ $ icat -o 2048 dds2-alpine.flag.img 18291
+   _     _     _     _     _     _     _     _     _     _     _     _     _  
+  / \   / \   / \   / \   / \   / \   / \   / \   / \   / \   / \   / \   / \ 
+ ( p ) ( i ) ( c ) ( o ) ( C ) ( T ) ( F ) ( { ) ( f ) ( 0 ) ( r ) ( 3 ) ( n )
+  \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/ 
+   _     _     _     _     _     _     _     _     _     _     _     _     _  
+  / \   / \   / \   / \   / \   / \   / \   / \   / \   / \   / \   / \   / \ 
+ ( s ) ( 1 ) ( c ) ( 4 ) ( t ) ( 0 ) ( r ) ( _ ) ( n ) ( 0 ) ( v ) ( 1 ) ( c )
+  \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/ 
+   _     _     _     _     _     _     _     _     _     _     _  
+  / \   / \   / \   / \   / \   / \   / \   / \   / \   / \   / \ 
+ ( 3 ) ( _ ) ( 4 ) ( b ) ( d ) ( 7 ) ( 2 ) ( 1 ) ( f ) ( 2 ) ( } )
+  \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/
+
+picoCTF{f0r3ns1c4t0r_n0v1c3_4bd721f2}

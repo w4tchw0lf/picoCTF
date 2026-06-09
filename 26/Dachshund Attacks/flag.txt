@@ -1,0 +1,7 @@
+[*] Iniciando el Ataque de Wiener (fracciones continuas)...
+[+] ¡Clave privada descubierta!
+    d = 15453750380779092921000527129792096513099497679200538570369744483886669615455
+
+[*] Descifrando el mensaje interceptado...
+
+[+] FLAG REVELADA: picoCTF{proving_wiener_21195b0}
