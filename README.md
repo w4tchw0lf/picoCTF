@@ -12,8 +12,8 @@ In this repository i'm going to upload the solutions of all challenges of picoCT
 - 23 [medium] **completed**
 - 24 [medium] **completed**
 - 25 [medium] **completed**
-- 26 [medium] **in-progress**
-- 27 [medium] **pending**
+- 26 [medium] **completed**
+- 27 [medium] **in-progress**
 - 28 [medium] **pending**
 - 29 [medium] **pending**
 - 30 [medium] **pending**
