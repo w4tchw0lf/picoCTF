@@ -1,0 +1,10 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/27/Easy Peasy]
+└──╼ $ python3 solve2.py 
+[+] Opening connection to wily-courier.picoctf.net on port 61961: Done
+[*] Bandera cifrada original capturada: 1ec629d4c3897442e888e0473fdde3f4bff9a28d56ce61011a8cec87be52db92
+[*] Longitud calculada: 32 bytes
+[*] Enviando 49968 bytes de relleno para resetear la clave...
+[*] Puntero a cero. Inyectando texto conocido: b'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+
+[+] ¡ÉXITO! Tu bandera es: picoCTF{abc3c985f19f8227c0944d0fbd1c17ad}
+[*] Closed connection to wily-courier.picoctf.net port 61961

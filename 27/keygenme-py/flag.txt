@@ -1,0 +1,5 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/27/keygenme-py]
+└──╼ $ python3 solve.py 
+¡Aquí tienes tu bandera!
+
+picoCTF{1n_7h3_kk3y_of_08c46aa4}

