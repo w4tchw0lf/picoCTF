@@ -1,0 +1,5 @@
+Cyberchef: https://toolbox.itsec.tamu.edu/#recipe=Rail_Fence_Cipher_Decode(4,0)&input=VGEgXzdONkRERGhsZzpXM0RfSDNDMzFOX18wRDNlZiBzSFIwNTNGMzhONDNEMEYgaTMzX19fTkE
+
+The flag is: WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_D00AFDD3
+
+picoCTF{WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_D00AFDD3}

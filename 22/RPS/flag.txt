@@ -1,0 +1,13 @@
+nc saturn.picoctf.net 63923
+1
+rockpaperscissors
+1
+rockpaperscissors
+1
+rockpaperscissors
+1
+rockpaperscissors
+1
+rockpaperscissors
+
+picoCTF{50M3_3X7R3M3_1UCK_B69E01B8}

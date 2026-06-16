@@ -1,0 +1,4 @@
+echo -n "cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz" | base64 -d
+
+picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}
+

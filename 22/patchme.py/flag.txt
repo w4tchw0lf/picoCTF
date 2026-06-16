@@ -1,0 +1,4 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/22/patchme.py]
+└──╼ $ python3 patchme.flag.py                             
+Bypassing password...
+picoCTF{p47ch1ng_l1f3_h4ck_c4a4688b}

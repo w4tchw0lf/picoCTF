@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Welcome</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/united/bootstrap.min.css" />
+	<style type="text/css">
+		.form-signin {
+			width: 100%;
+			max-width: 420px;
+			padding: 15px;
+			margin: auto;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="text-center">
+		<h1>Help us test this form</h1>
+		<h1>username:test and password:test.</h1>
+	</div>
+	<form class="form-signin" action="http://saturn.picoctf.net:64546/login" method="post">
+		<div class="text-center mb-4">
+			<!-- user input-->
+
+			<label for="username">Username</label>
+			<input type="text" id="username" name="username" placeholder="username" class="form-control" required autofocus />
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" class="form-control" placeholder="Password" required />
+			<br.>
+				<!-- submit button -->
+				<input type="submit" id="loginForm" class="btn btn-success" value="test" />
+
+		</div>
+	</form>
+</body>
+
+</html>

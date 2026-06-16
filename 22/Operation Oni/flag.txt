@@ -1,0 +1,11 @@
+sudo mount -o loop,offset=$((206848 * 512)) disk.img /mnt
+
+sudo cp /mnt/root/.ssh/id_ed25519 ./key_file
+
+sudo chown cristian:cristian key_file
+
+sudo chmod 600 key_file
+
+ssh -i key_file -p 52421 ctf-player@saturn.picoctf.net
+
+picoCTF{k3y_5l3u7h_b5066e83}

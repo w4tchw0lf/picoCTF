@@ -1,0 +1,3 @@
+strings network-dump.flag.pcap
+
+picoCTF{p4ck37_5h4rk_01b0a0d6}

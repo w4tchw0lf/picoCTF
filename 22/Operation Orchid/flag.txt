@@ -1,0 +1,17 @@
+┌─[cristian@Prestige-13-AI]─[~/Descargas/picoCTF/22/Operation Orchid]
+└──╼ $ sudo cat /mnt/root/.ash_history
+touch flag.txt
+nano flag.txt 
+apk get nano
+apk --help
+apk add nano
+nano flag.txt 
+openssl
+openssl aes256 -salt -in flag.txt -out flag.txt.enc -k unbreakablepassword1234567
+shred -u flag.txt
+ls -al
+halt
+
+sudo openssl aes256 -d -salt -in /mnt/root/flag.txt.enc -out bandera.txt -k unbreakablepassword1234567
+
+picoCTF{h4un71ng_p457_1d02081e}
