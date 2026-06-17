@@ -1,0 +1,14 @@
+printf %s 'TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak' > invite1.pdf
+
+printf %s 'TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak' > invite2.pdf
+
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/28/It is my Birthday]
+└──╼ $ md5sum invite1.pdf invite2.pdf
+faad49866e9498fc1719f5289e7a0269  invite1.pdf
+faad49866e9498fc1719f5289e7a0269  invite2.pdf
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/28/It is my Birthday]
+└──╼ $ cmp invite1.pdf invite2.pdf
+invite1.pdf invite2.pdf son distintos: byte 22, línea 1
+
+Upload two PDFs and get the flag:
+picoCTF{c0ngr4ts_u_r_1nv1t3d_c63bbaf}

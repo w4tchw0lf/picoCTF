@@ -1,0 +1,22 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/28/tunn31 v1s10n]
+└──╼ $ cp tunn3l_v1s10n fixed.bmp
+
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/28/tunn31 v1s10n]
+└──╼ $ python3 - << 'EOF'
+with open("fixed.bmp", "r+b") as f:
+    # BMP pixel data offset: 54 bytes = 0x36
+    f.seek(0x0A)
+    f.write(bytes.fromhex("36 00 00 00"))
+
+    # DIB header size: 40 bytes = 0x28
+    f.seek(0x0E)
+    f.write(bytes.fromhex("28 00 00 00"))
+
+    # Height: 850 = 0x0352 -> little endian: 52 03 00 00
+    f.seek(0x16)
+    f.write(bytes.fromhex("52 03 00 00"))
+EOF
+
+xdg-open fixed.bmp
+
+picoCTF{qu1t3_a_v13w_2020}

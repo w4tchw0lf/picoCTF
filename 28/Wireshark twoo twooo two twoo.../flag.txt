@@ -1,0 +1,3 @@
+tshark -r shark2.pcapng -Y 'dns.flags.response == 0 && ip.dst == 18.217.1.57 && dns.qry.name contains "reddshrimpandherring.com"' -T fields -e dns.qry.name | awk -F'.' '!seen[$1]++ {printf "%s", $1}' | base64 -d
+
+picoCTF{dns_3xf1l_ftw_deadbeef}

@@ -1,0 +1,16 @@
+sudo apt install -y python3-oletools
+
+unzip -p weird.docm word/vbaProject.bin | strings | grep -E 'picoCTF|[A-Za-z0-9+/=]{20,}'
+
+Ret_Val = Shell("python -c 'print(\"cGljb0NURnttNGNyMHNfcl9kNG5nM3IwdXN9\")'" & " " & Args, vbNormalFocus)
+cGljb0NURnttNGNyMHNfcl9kNG5nM3IwdXN9
+Document=ThisDocument/&H00000000
+VersionCompatible32="393222000"
+CMG="383A3D3B413B413B413B41"
+InsertParagraphAfter
+InsertParagraphBefore)
+wdVerticalPositionRelativeToPageS
+
+echo -n "cGljb0NURnttNGNyMHNfcl9kNG5nM3IwdXN9" | base64 -d
+
+picoCTF{m4cr0s_r_d4ng3r0us}
