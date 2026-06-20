@@ -1,0 +1,14 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/29/Pitter, Patter, Platters]
+└──╼ $ fls suspicious.dd.sda1 
+d/d 11: lost+found
+d/d 2009:       boot
+d/d 4017:       tce
+r/r 12: suspicious-file.txt
+V/V 8033:       $OrphanFiles
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/29/Pitter, Patter, Platters]
+└──╼ $ icat suspicious.dd.sda1 12
+Nothing to see here! But you may want to look here -->
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/29/Pitter, Patter, Platters]
+└──╼ $ blkcat suspicious.dd.sda1 2049 | rev
+>-- ereh kool ot tnaw yam uoy tuB !ereh ees ot gnihtoN
+picoCTF{b3_5t111_mL|_<3_f2136893}
