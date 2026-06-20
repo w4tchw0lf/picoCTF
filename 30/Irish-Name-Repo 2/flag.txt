@@ -1,0 +1,6 @@
+Access to: http://fickle-tempest.picoctf.net:51853/login.php
+
+Username: admin'--
+Password: a
+
+picoCTF{m0R3_SQL_plz_8c334129}

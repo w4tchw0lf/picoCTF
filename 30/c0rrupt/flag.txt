@@ -1,0 +1,26 @@
+python3 - << 'EOF'
+from pathlib import Path
+
+p = Path("mystery")
+data = bytearray(p.read_bytes())
+
+# PNG magic bytes correctos
+data[0:8] = bytes.fromhex("89504e470d0a1a0a")
+
+p.write_bytes(data)
+EOF
+
+
+python3 - << 'EOF'
+from pathlib import Path
+
+p = Path("mystery")
+data = bytearray(p.read_bytes())
+
+# Reemplaza todas las marcas DETx por IDAT
+data = data.replace(b"DETx", b"IDAT")
+
+p.write_bytes(data)
+EOF
+
+picoCTF{c0rrupt10n_1847995}

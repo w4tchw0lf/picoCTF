@@ -1,0 +1,25 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/30/Mr-Worldwide]
+└──╼ $ python3 solve.py
+[+] Opening connection to fickle-tempest.picoctf.net on port 57390: Done
+Let us see how data is stored
+computer
+Please give the 01100011 01101111 01101101 01110000 01110101 01110100 01100101 01110010 as a word.
+...
+you have 45 seconds.....
+
+Input:[+] respuesta: computer
+
+Please give me the  o143 o157 o156 o164 o141 o151 o156 o145 o162 as a word.
+Input:[+] respuesta: container
+
+Please give me the 6c616d70 as a word.
+Input:[+] respuesta: lamp
+
+[*] Switching to interactive mode
+You've beaten the challenge
+Flag: picoCTF{learning_about_converting_values_aa2bA794}
+[*] Got EOF while reading in interactive
+$ ls
+$ pwd
+[*] Closed connection to fickle-tempest.picoctf.net port 57390
+[*] Got EOF while sending in interactivepicoCTF{KODIAK_ALASKA}

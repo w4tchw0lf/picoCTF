@@ -1,0 +1,18 @@
+python3 - << 'EOF'
+from pathlib import Path
+
+data = Path("whitepages.txt").read_bytes()
+
+# U+2003 en UTF-8 = e2 80 83
+bits = data.replace(b'\xe2\x80\x83', b'0').replace(b'\x20', b'1')
+
+out = ""
+for i in range(0, len(bits), 8):
+    byte = bits[i:i+8]
+    if len(byte) == 8:
+        out += chr(int(byte, 2))
+
+print(out)
+EOF
+
+picoCTF{not_all_spaces_are_created_equal_bbc4f54c75763bd78dc840f05eb7a752}

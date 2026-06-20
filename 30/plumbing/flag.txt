@@ -1,0 +1,3 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/30/plumbing]
+└──╼ $ nc fickle-tempest.picoctf.net 59121 | grep picoCTF
+picoCTF{digital_plumb3r_0BAc587E}
