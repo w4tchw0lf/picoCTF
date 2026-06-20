@@ -1,0 +1,3 @@
+exiftool pico_img.png
+
+picoCTF{s0_m3ta_b309a657}

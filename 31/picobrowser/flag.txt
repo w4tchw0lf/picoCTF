@@ -1,0 +1,3 @@
+Change User-Agent to picobrowser and access to http://fickle-tempest.picoctf.net:59799/flag
+
+picoCTF{p1c0_s3cr3t_ag3nt_fba5c48f}

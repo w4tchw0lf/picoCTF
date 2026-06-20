@@ -1,0 +1,3 @@
+"Alfabeto de banderas marítimas" o "International Maritime Signal Flags chart"
+
+PICOCTF{F1AG5AND5TUFF}
