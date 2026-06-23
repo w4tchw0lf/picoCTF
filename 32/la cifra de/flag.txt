@@ -1,0 +1,5 @@
+nc fickle-tempest.picoctf.net 63182 > cipher.txt
+
+Vigenere cipher with key: flag
+
+picoCTF{b311a50_0r_v1gn3r3_c1ph3raA83Ba7B}

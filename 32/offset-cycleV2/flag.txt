@@ -1,0 +1,21 @@
+ctf-player@pico-chall$ python3 solve.py 
+[+] Starting local process './start': pid 42
+[+] Receiving all data: Done (215B)
+[*] Process './start' stopped with exit code 0 (pid 42)
+[+] Selected file: 6.c
+[+] Copied 6.c to current directory.
+[+] Compilation successful: 6
+[+] Binary 6 has access to flag.txt
+[*] Deletion scheduled: files will be removed in 80 seconds (even if this script exits).
+
+[+] New files: ['6.c', '6']
+[+] Source = 6.c
+[+] Binary = 6
+[*] source/bin = 6.c / 6
+[*] BUFSIZE    = 354
+[*] win        = 0x8049316
+[+] Starting local process './6': pid 55
+[+] Receiving all data: Done (70B)
+[*] Process './6' stopped with exit code -11 (SIGSEGV) (pid 55)
+Ok... Now Where's the flag?
+picoCTF{Y0U_AGa1n_Us3d_pwNt00L5_3e22517f}

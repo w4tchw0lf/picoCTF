@@ -1,0 +1,44 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/JITFP]
+└──╼ $ ssh -p 58972 ctf-player@dolphin-cove.picoctf.net 'python3 -' < solve_jitfp.py
+ctf-player@dolphin-cove.picoctf.net's password: 
+[+] pid  = 22
+[+] base = 0x5a670f499000
+[+] comparadores encontrados: 65
+[+] patch 0x5a670f49aa81: 75 -> eb
+[+] breakpoint en call rdx: 0x5a670f49aa7d
+[00] rdx=0x5a670f49a388 off=0x1388 char='p'
+[01] rdx=0x5a670f49a2bd off=0x12bd char='i'
+[02] rdx=0x5a670f49a20f off=0x120f char='c'
+[03] rdx=0x5a670f49a36b off=0x136b char='o'
+[04] rdx=0x5a670f49a501 off=0x1501 char='C'
+[05] rdx=0x5a670f49a6ee off=0x16ee char='T'
+[06] rdx=0x5a670f49a558 off=0x1558 char='F'
+[07] rdx=0x5a670f49a8f8 off=0x18f8 char='{'
+[08] rdx=0x5a670f49a388 off=0x1388 char='p'
+[09] rdx=0x5a670f49a3c2 off=0x13c2 char='r'
+[10] rdx=0x5a670f49a7b9 off=0x17b9 char='0'
+[11] rdx=0x5a670f49a20f off=0x120f char='c'
+[12] rdx=0x5a670f49a266 off=0x1266 char='f'
+[13] rdx=0x5a670f49a84a off=0x184a char='5'
+[14] rdx=0x5a670f49a8db off=0x18db char='_'
+[15] rdx=0x5a670f49a22c off=0x122c char='d'
+[16] rdx=0x5a670f49a810 off=0x1810 char='3'
+[17] rdx=0x5a670f49a867 off=0x1867 char='6'
+[18] rdx=0x5a670f49a419 off=0x1419 char='u'
+[19] rdx=0x5a670f49a283 off=0x1283 char='g'
+[20] rdx=0x5a670f49a283 off=0x1283 char='g'
+[21] rdx=0x5a670f49a810 off=0x1810 char='3'
+[22] rdx=0x5a670f49a3c2 off=0x13c2 char='r'
+[23] rdx=0x5a670f49a8db off=0x18db char='_'
+[24] rdx=0x5a670f49a84a off=0x184a char='5'
+[25] rdx=0x5a670f49a249 off=0x1249 char='e'
+[26] rdx=0x5a670f49a84a off=0x184a char='5'
+[27] rdx=0x5a670f49a22c off=0x122c char='d'
+[28] rdx=0x5a670f49a82d off=0x182d char='4'
+[29] rdx=0x5a670f49a867 off=0x1867 char='6'
+[30] rdx=0x5a670f49a1d5 off=0x11d5 char='a'
+[31] rdx=0x5a670f49a8be off=0x18be char='9'
+[32] rdx=0x5a670f49a915 off=0x1915 char='}'
+
+[+] password/flag candidate: picoCTF{pr0cf5_d36ugg3r_5e5d46a9}
+picoCTF{pr0cf5_d36ugg3r_5e5d46a9}

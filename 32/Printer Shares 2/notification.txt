@@ -1,0 +1,8 @@
+Hi Joe,
+
+We’ve identified a vulnerability in this printer. Until the issue is resolved, please use an alternative printer.
+
+If you have never logged into the printer before, please note that the default password is currently in use.
+
+Best,
+The Operator Team

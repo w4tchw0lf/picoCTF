@@ -1,0 +1,42 @@
+(env) ┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/32/Secure Dot Product]
+└──╼ $ python3 solve.py lonely-island.picoctf.net 64029
+[*] Intento 1
+[+] Opening connection to lonely-island.picoctf.net on port 64029: Done
+[*] trusted lengths = [8, 30, 23, 4, 22], min = 4
+[*] Recuperando bytes de key por length extension...
+[*] key[04] = 96
+[*] key[05] = 23
+[*] key[06] = cd
+[*] key[07] = c3
+[*] key[08] = ed
+[*] key[09] = d0
+[*] key[10] = 13
+[*] key[11] = ee
+[*] key[12] = 90
+[*] key[13] = 61
+[*] key[14] = 23
+[*] key[15] = 21
+[*] key[16] = b8
+[*] key[17] = ff
+[*] key[18] = b0
+[*] key[19] = 62
+[*] key[20] = 6e
+[*] key[21] = 01
+[*] key[22] = 56
+[*] key[23] = 8c
+[*] key[24] = 74
+[*] key[25] = e0
+[*] key[26] = 2b
+[*] key[27] = d9
+[*] key[28] = e0
+[*] key[29] = 00
+[*] key[30] = 22
+[*] key[31] = 46
+[*] key[00] = 01
+[*] key[01] = fa
+[*] key[02] = 08
+[*] key[03] = e3
+[+] AES key = 01fa08e39623cdc3edd013ee90612321b8ffb0626e01568c74e02bd9e0002246
+[*] Closed connection to lonely-island.picoctf.net port 64029
+[+] picoCTF{n0t_so_s3cure_.x_w1th_sh@512_40aa9102}
+picoCTF{n0t_so_s3cure_.x_w1th_sh@512_40aa9102}
