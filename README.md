@@ -19,8 +19,8 @@ In this repository i'm going to upload the solutions of all challenges of picoCT
 - 30 [medium] **completed**
 - 31 [medium] **completed**
 - 32 [hard] **completed**
-- 33 [hard] **in-progress**
-- 34 [hard] **pending**
+- 33 [hard] **completed**
+- 34 [hard] **in-progress**
 - 35 [hard] **pending**
 - 36 [hard] **pending**
 - 37 [hard] **pending**
@@ -28,6 +28,6 @@ In this repository i'm going to upload the solutions of all challenges of picoCT
 - 39 [hard] **pending**
 - 40 [hard] **pending**
 - 41 [hard] **pending**
-- 42 [hard] **pending**
+- 42 [hard] **in-progress**
 - 43 [hard] **completed**
 - 44 [hard] **completed**
