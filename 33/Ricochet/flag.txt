@@ -1,0 +1,1 @@
+east, south, east, north, west, south, east, north, east, south

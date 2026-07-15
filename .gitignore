@@ -2,3 +2,7 @@
 *.img
 *.pcap
 33/elements/elements.tar.gz
+*.bin
+*.ext
+*.img
+*.img.gz

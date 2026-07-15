@@ -1,0 +1,20 @@
+PS C:\Users\crist\Desktop> python .\solve_binins4.py
+[+] Listener en 127.0.0.1:9867
+[+] Spawning bin-ins4.exe con Frida...
+[+] connect  = 0x7ffbb3263330
+[+] lstrcmpA = 0x7ffbb23e7c90
+[+] Conexión recibida de ('127.0.0.1', 62948)
+[socket recv] 'Enter the key:'
+[+] Enviando key falsa: b'anything\n'
+[connect] original -> 192.168.29.25:9867
+[+] connect redirigido a 127.0.0.1:9867
+[socket recv] "Congratulations! Here's your flag:\ncGljb0NURntuM3R3MHJrXzFzXzRQMXNfNFNfVzMxMV8zOTU5NWZhOX0K"
+
+[+] Datos recibidos completos:
+[lstrcmpA] 'anything' vs 'key39595fa9'
+[+] lstrcmpA forzado a 0
+Enter the key:Congratulations! Here's your flag:
+cGljb0NURntuM3R3MHJrXzFzXzRQMXNfNFNfVzMxMV8zOTU5NWZhOX0K
+[+] Base64 decodificado: picoCTF{n3tw0rk_1s_4P1s_4S_W311_39595fa9}
+
+[+] FLAG: picoCTF{n3tw0rk_1s_4P1s_4S_W311_39595fa9}

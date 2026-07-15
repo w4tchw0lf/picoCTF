@@ -154,7 +154,7 @@ class RobotController(RadioDevice):
 
                 # Demo version sends the same four commands repeatedly
                 # Full control is available in the licensed version of this system
-                self.send_buffer_secure = ["east", "south", "west", "north"][self.movement_counter % 4]
+                self.send_buffer_secure = ["east", "south", "east", "north", "west", "south", "east", "north", "east", "south"][self.movement_counter % 4]
                 self.movement_counter += 1
 
 

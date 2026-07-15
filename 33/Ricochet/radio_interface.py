@@ -1,7 +1,7 @@
 import requests
 
 # TODO: you will need to fill this in with the URL of the challenge
-SERVER_URL = "http://127.0.0.1:5000"
+SERVER_URL = "http://activist-birds.picoctf.net:61764"
 
 # Returns a list of messages seen on the air since the last time this function
 # was called

