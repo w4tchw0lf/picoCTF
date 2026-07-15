@@ -29,4 +29,5 @@ In this repository i'm going to upload the solutions of all challenges of picoCT
 - 40 [hard] **pending**
 - 41 [hard] **pending**
 - 42 [hard] **pending**
-- 43 [hard] **pending**
+- 43 [hard] **completed**
+- 44 [hard] **completed**
