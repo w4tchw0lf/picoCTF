@@ -1,0 +1,3 @@
+cGljb0NURnthbHdheXNfYV9zdGVwX2FoZWFkX2ZiMmExYThjfQ==
+
+picoCTF{always_a_step_ahead_fb2a1a8c}

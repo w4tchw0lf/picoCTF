@@ -1,1 +1,21 @@
-east, south, east, north, west, south, east, north, east, south
+1. Instancia fresca para capturar movimientos
+
+python3 ricochet_three_phase.py cmd http://activist-birds.picoctf.net:PUERTO_1
+
+Eso guarda ricochet_hmac_cache.json
+
+2. Reinicia instancia para capturar blanks
+
+Reinicia otra vez en picoCTF y ejecuta con el nuevo puerto:
+
+python3 ricochet_three_phase.py blank http://activist-birds.picoctf.net:PUERTO_2
+
+Esto completa el mismo ricochet_hmac_cache.json.
+
+3. Reinicia instancia para resolver
+
+Reinicia una tercera vez y ejecuta:
+
+python3 ricochet_three_phase.py solve http://activist-birds.picoctf.net:PUERTO_3 | tee ricochet_final.out
+
+[*] FLAG: picoCTF{r1gh7_84ck_47_y4_18c76d41}

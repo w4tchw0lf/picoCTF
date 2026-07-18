@@ -1,5 +1,0 @@
-UUID=839ae6a9-464c-40ce-b4bc-7819d270da31	/	ext4	rw,relatime 0 1
-UUID=188f7470-239c-4392-8a94-eae320015087	/boot	ext4	rw,relatime 0 2
-UUID=76fefd3e-61ad-48e5-9a14-d94e9d8efe4a	swap	swap	defaults	0 0
-/dev/cdrom	/media/cdrom	iso9660	noauto,ro 0 0
-/dev/usbdisk	/media/usb	vfat	noauto	0 0

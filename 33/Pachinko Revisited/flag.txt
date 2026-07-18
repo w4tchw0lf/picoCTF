@@ -16,3 +16,9 @@ curl -X POST http://activist-birds.picoctf.net:53056/check \
 }'
 
 picoCTF{p4ch1nk0_f146_0n3_e947b9d7}
+
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/33/Pachinko Revisited]
+└──╼ $ python3 solve.py
+200
+{"status":"success","flag":"picoCTF{p4ch1nk0_r3v15173d_flag_two_a6c19d0d}\n"}
+{'status': 'success', 'flag': 'picoCTF{p4ch1nk0_r3v15173d_flag_two_a6c19d0d}\n'}
