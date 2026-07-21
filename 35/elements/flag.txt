@@ -1,0 +1,3 @@
+picoCTF{test_flag}
+
+picoCTF{little_alchemy_was_the_0g_game_does_anyone_rememb3r_9889fd4a}

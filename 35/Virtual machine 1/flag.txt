@@ -1,0 +1,7 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/35/Virtual machine 1]
+└──╼ $ nc saturn.picoctf.net 62859
+If the input to the machine is 23342, what is the output?
+Answer> 218457778
+218457778
+That's correct!
+picoCTF{m0r3_g34r5_3g4d_4261e7cd}

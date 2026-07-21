@@ -1,0 +1,27 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/35/PowerAnalysis: Warmup]
+└──╼ $ python3 solve_power1.py     
+[*] Servidor: saturn.picoctf.net:53047
+[*] Trazas solicitadas: 400
+[*] Longitud de cada traza: 2666
+[*] Recogidas 400/400 trazas
+[*] Matriz de trazas: (400, 2666)
+[*] Ejecutando CPA...
+[+] K[00] = af  corr=0.56670  muestra=  352  segundo=68/0.24459  ratio=2.317
+[+] K[01] = 55  corr=0.53760  muestra=  327  segundo=48/0.23946  ratio=2.245
+[+] K[02] = be  corr=0.59751  muestra=  360  segundo=82/0.23861  ratio=2.504
+[+] K[03] = 9b  corr=0.61605  muestra=  385  segundo=14/0.23934  ratio=2.574
+[+] K[04] = b0  corr=0.55904  muestra=  330  segundo=f7/0.25956  ratio=2.154
+[+] K[05] = 8d  corr=0.56345  muestra=  378  segundo=00/0.24844  ratio=2.268
+[+] K[06] = 78  corr=0.54797  muestra=  332  segundo=62/0.23172  ratio=2.365
+[+] K[07] = 49  corr=0.58621  muestra=  388  segundo=57/0.26193  ratio=2.238
+[+] K[08] = 1b  corr=0.52778  muestra=  384  segundo=0e/0.27041  ratio=1.952
+[+] K[09] = 0a  corr=0.57435  muestra=  357  segundo=3f/0.28313  ratio=2.029
+[+] K[10] = a4  corr=0.54596  muestra=  354  segundo=95/0.25446  ratio=2.146
+[+] K[11] = 16  corr=0.56811  muestra=  337  segundo=fd/0.25567  ratio=2.222
+[+] K[12] = f7  corr=0.54248  muestra=  362  segundo=d6/0.23872  ratio=2.272
+[+] K[13] = 04  corr=0.52610  muestra=  359  segundo=6e/0.26660  ratio=1.973
+[+] K[14] = 3e  corr=0.53633  muestra=  339  segundo=2c/0.24053  ratio=2.230
+[+] K[15] = d4  corr=0.54607  muestra=  354  segundo=44/0.24352  ratio=2.242
+
+[+] Clave candidata: af55be9bb08d78491b0aa416f7043ed4
+[+] Flag: picoCTF{af55be9bb08d78491b0aa416f7043ed4}

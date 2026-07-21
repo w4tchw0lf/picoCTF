@@ -1,0 +1,8 @@
+Password: akalibardzyratrundle
+
+openssl enc -d -aes256 -in ledger.1.txt.enc -out ledger.1.txt \
+-S 2350e88cbeaf16c9 \
+-K a9f86b874bd927057a05408d274ee3a88a83ad972217b81fdc2bb8e8ca8736da \
+-iv 908458e48fc8db1c5a46f18f0feb119f
+
+picoCTF{f473_53413d_89417a6d}

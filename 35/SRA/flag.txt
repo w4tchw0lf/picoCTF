@@ -1,0 +1,48 @@
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+[*] Intentando factorizar... (Límite: 5 segundos)
+
+[+] ¡BINGO! Colisión matemática encontrada.
+[+] Texto: 69ZESiQCnCD5U6hD
+
+========================================
+
+
+picoCTF{7h053_51n5_4r3_n0_m0r3_ba95c657}
+========================================

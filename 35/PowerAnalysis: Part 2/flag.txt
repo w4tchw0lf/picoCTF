@@ -1,0 +1,27 @@
+┌─[cristian@Prestige-13-AI]─[~/Documentos/picoCTF/35/PowerAnalysis: Part 2]
+└──╼ $ python3 solve.py                             
+[+] Cargando 100 trazas locales: Datos cargados en memoria.
+[*] Matriz de trazas: (100, 2666) (Esperado: 100xN)
+
+--- Análisis de Correlación (Top 3 Candidatos por Byte) ---
+Byte 00 | #1: 0x8e (0.627) | #2:  0x0 (0.514) | #3: 0x8d (0.459)
+Byte 01 | #1: 0xb5 (0.625) | #2: 0xea (0.463) | #3: 0x20 (0.432)
+Byte 02 | #1: 0xd0 (0.537) | #2: 0x75 (0.488) | #3: 0x6f (0.484)
+Byte 03 | #1: 0x6d (0.599) | #2: 0x93 (0.456) | #3: 0xc9 (0.443)
+Byte 04 | #1: 0x8a (0.726) | #2: 0x72 (0.443) | #3: 0xbd (0.421)
+Byte 05 | #1: 0xd0 (0.599) | #2: 0xa6 (0.461) | #3: 0x4c (0.448)
+Byte 06 | #1: 0xaa (0.556) | #2: 0x6e (0.477) | #3: 0x28 (0.458)
+Byte 07 | #1: 0xeb (0.520) | #2: 0xef (0.476) | #3: 0x21 (0.458)
+Byte 08 | #1: 0xc7 (0.573) | #2: 0xaf (0.481) | #3: 0x11 (0.456)
+Byte 09 | #1: 0xcc (0.640) | #2: 0x50 (0.441) | #3: 0xa6 (0.431)
+Byte 10 | #1: 0x5a (0.616) | #2: 0xd5 (0.491) | #3: 0x89 (0.423)
+Byte 11 | #1:  0xb (0.647) | #2: 0x9e (0.482) | #3: 0xf7 (0.452)
+Byte 12 | #1: 0x1b (0.551) | #2: 0x64 (0.513) | #3: 0x3b (0.474)
+Byte 13 | #1: 0xa5 (0.607) | #2: 0x7e (0.444) | #3:  0x4 (0.430)
+Byte 14 | #1: 0xed (0.659) | #2:  0x1 (0.488) | #3: 0xda (0.461)
+Byte 15 | #1: 0x8c (0.558) | #2:  0x2 (0.460) | #3: 0x76 (0.450)
+
+[+] Suposición principal de Flag:
+picoCTF{8eb5d06d8ad0aaebc7cc5a0b1ba5ed8c}
+
+Nota: Si esta flag falla, revisa los bytes donde la diferencia entre el #1 y el #2 sea muy pequeña (ej. 0.001) e intenta construir la flag intercambiando esos bytes.
